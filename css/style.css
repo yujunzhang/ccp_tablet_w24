@@ -296,6 +296,13 @@ img {
         padding: 2%;
     }
 
+    /* make the images in the gallery bigger when hovered and add a shadow when it's hovered */
+    .pet_photo_gallery img:hover{
+        transform: scale(1.2);
+        box-shadow: 5px 5px 5px#3A0588;
+        z-index: 9;
+    }
+
     .recipe_intro{
         margin: 0%;
     }
